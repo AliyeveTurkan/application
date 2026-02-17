@@ -1,13 +1,439 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+.imgbox img {
+  width: 100%;
 }
 
-a:hover {
-  color: black;
+section {
+  padding: 100px 0;
 }
-/*# sourceMappingURL=style.css.map */
+
+header {
+  position: fixed;
+  padding: 30px 0;
+  background-color: #060606;
+}
+header .imgbox {
+  width: 140px;
+}
+header nav a {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0 60px;
+}
+header nav .home-color {
+  color: #9b7a7a;
+}
+
+#welcome img {
+  width: 100%;
+}
+#welcome .textbox {
+  position: absolute;
+  top: 370px;
+  left: 400px;
+  color: #ffffff;
+}
+#welcome .textbox h2 {
+  font-weight: 300;
+  font-size: 35px;
+  padding: 0 0 25px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+#welcome .btn {
+  padding: 20px 45px;
+  border-radius: 7px;
+  background-color: #ffc800;
+  position: absolute;
+  top: 545px;
+  left: 605px;
+  color: #ffffff;
+  transition: 1s;
+}
+#welcome .btn:hover {
+  padding: 20px 45px;
+  border-radius: 7px;
+  background-color: #acaf0d;
+}
+
+#services .box {
+  width: 130px;
+  height: 130px;
+  border: 3px solid;
+  border-radius: 65px;
+  color: #ffc800;
+  background-color: #ffc800;
+  margin: 0 auto;
+}
+#services h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#services h3 {
+  padding: 20px 0 40px;
+  color: #c4c7c9;
+  font-size: 20px;
+}
+#services h2 {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px 0 0;
+}
+#services .iconwid {
+  position: absolute;
+  top: 1185px;
+  left: 259px;
+  color: #ffffff;
+  font-size: 70px;
+}
+#services .iconwit {
+  position: absolute;
+  top: 1183px;
+  left: 638px;
+  color: #ffffff;
+  font-size: 70px;
+}
+#services .iconwin {
+  position: absolute;
+  top: 1184px;
+  left: 1018px;
+  color: #ffffff;
+  font-size: 70px;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+#portfolio .textboxwid h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#portfolio .textboxwid h3 {
+  font-size: 20px;
+  color: #b3bdcb;
+}
+#portfolio .textbox {
+  background-color: #ffffff;
+}
+#portfolio .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px 0 10px;
+}
+#portfolio .textbox h3 {
+  font-size: 18px;
+  color: #b3bdcb;
+  padding: 0px 0 30px;
+}
+
+#about {
+  padding-bottom: 200px;
+}
+#about .textbox h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#about .textbox h3 {
+  font-size: 18px;
+  color: #c4c7c9;
+  padding: 20px 0 60px 0;
+}
+#about .textwid {
+  padding: 0 650px 0 120px;
+}
+#about .textwid h2 {
+  font-weight: 600;
+  font-size: 26px;
+  padding: 0 0 20px;
+}
+#about .textwid h3 {
+  font-size: 19px;
+  color: #c4c7c9;
+}
+#about .imgboxwid {
+  width: 160px;
+  height: 160px;
+  border: 5px solid #f6f7f9;
+  border-radius: 70px;
+  position: absolute;
+  top: 2960px;
+  left: 610px;
+}
+#about .imgboxwid img {
+  width: 150px;
+  border-radius: 70px;
+}
+#about .textwit {
+  padding: 200px 120px 0 680px;
+}
+#about .textwit h2 {
+  font-weight: 600;
+  font-size: 26px;
+  padding: 0 0 20px 0;
+}
+#about .textwit h3 {
+  font-size: 19px;
+  color: #c4c7c9;
+}
+#about .imgboxwit {
+  width: 160px;
+  height: 160px;
+  border: 5px solid #f6f7f9;
+  border-radius: 70px;
+  position: absolute;
+  top: 3310px;
+  left: 609px;
+}
+#about .imgboxwit img {
+  width: 150px;
+  border-radius: 70px;
+}
+#about .textwin {
+  padding: 200px 650px 0 120px;
+}
+#about .textwin h2 {
+  font-weight: 600;
+  font-size: 26px;
+  padding: 0 0 20px;
+}
+#about .textwin h3 {
+  font-size: 19px;
+  color: #c4c7c9;
+}
+#about .imgboxwin {
+  width: 160px;
+  height: 160px;
+  border: 5px solid #f6f7f9;
+  border-radius: 70px;
+  position: absolute;
+  top: 3680px;
+  left: 620px;
+}
+#about .imgboxwin img {
+  width: 150px;
+  border-radius: 70px;
+}
+#about .textwix {
+  padding: 200px 120px 0 680px;
+}
+#about .textwix h2 {
+  font-weight: 600;
+  font-size: 26px;
+  padding: 0 0 20px 0;
+}
+#about .textwix h3 {
+  font-size: 19px;
+  color: #c4c7c9;
+}
+#about .imgboxwix {
+  width: 160px;
+  height: 160px;
+  border: 5px solid #f6f7f9;
+  border-radius: 70px;
+  position: absolute;
+  top: 4090px;
+  left: 620px;
+}
+#about .imgboxwix img {
+  width: 150px;
+  border-radius: 70px;
+}
+#about .box {
+  width: 160px;
+  height: 160px;
+  border: 5px solid #f6f7f9;
+  border-radius: 80px;
+  background-color: #ffc800;
+  position: absolute;
+  top: 4450px;
+  left: 609px;
+}
+#about .box h4 {
+  font-weight: 700;
+  font-size: 22px;
+  margin: 42px;
+  color: #ffffff;
+}
+
+#amazing {
+  background-color: #f8f9fa;
+  padding-top: 200px;
+}
+#amazing .textwin h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+#amazing .textwin h3 {
+  color: #c4c7c9;
+  padding: 20px 0 50px;
+  font-size: 20px;
+}
+#amazing .textwid {
+  color: #c4c7c9;
+  font-size: 20px;
+  padding: 40px 190px;
+}
+#amazing .imgbox {
+  width: 220px;
+  height: 220px;
+  border: 8px solid #dfe0e1;
+  border-radius: 95%;
+}
+#amazing .imgbox img {
+  border-radius: 90%;
+}
+#amazing .box {
+  margin: 0 70px;
+}
+#amazing .box ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+}
+#amazing .box ul li {
+  margin: 0 10px;
+  background-color: #212529;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#amazing .box ul li .icon {
+  color: #ffffff;
+  margin: -8.6px;
+}
+#amazing .textbox h2 {
+  font-weight: 600;
+  font-size: 27px;
+  padding: 25px 0 10px;
+}
+#amazing .textbox h3 {
+  color: #c4c7c9;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#contact .imgboxone {
+  width: 300px;
+  display: inline-block;
+  padding: 0 60px 60px 30px;
+}
+#contact .imgboxtwo {
+  width: 245px;
+  display: inline-block;
+  padding: 0 60px 60px;
+}
+#contact .imgboxthree {
+  width: 280px;
+  display: inline-block;
+  padding: 0 60px 60px;
+}
+#contact .imgboxfour {
+  width: 230px;
+  display: inline-block;
+  padding: 0 60px 60px;
+}
+#contact .imgbox {
+  background-color: #120f1d;
+}
+#contact .addone {
+  position: absolute;
+  top: 5750px;
+  left: 160px;
+}
+#contact .addone input {
+  width: 500px;
+  height: 60px;
+  color: #d1d6dc;
+}
+#contact .addtwo {
+  position: absolute;
+  top: 5830px;
+  left: 160px;
+}
+#contact .addtwo input {
+  width: 500px;
+  height: 60px;
+  color: #d1d6dc;
+}
+#contact .addthree {
+  position: absolute;
+  top: 5910px;
+  left: 160px;
+}
+#contact .addthree input {
+  width: 500px;
+  height: 60px;
+  color: #d1d6dc;
+}
+#contact .addfour {
+  position: absolute;
+  top: 5750px;
+  left: 700px;
+}
+#contact .addfour input {
+  width: 500px;
+  height: 220px;
+  color: #d1d6dc;
+}
+#contact .textbox h1 {
+  position: absolute;
+  top: 5620px;
+  left: 560px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 45px;
+}
+#contact .textbox h3 {
+  position: absolute;
+  top: 5690px;
+  left: 535px;
+  font-size: 18px;
+  color: #7a7b7d;
+}
+#contact .box {
+  width: 220px;
+  height: 70px;
+  border: 3px solid #b28f0e;
+  border-radius: 10px;
+  background-color: #b28f0e;
+  position: absolute;
+  top: 6000px;
+  left: 570px;
+}
+#contact .box h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 23px 40px;
+}
+
+footer {
+  padding: 0 0 20px;
+}
+footer nav a {
+  color: #0e0000;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+}
+footer ul li {
+  margin: 0 10px;
+  background-color: #212529;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+footer ul li .icon {
+  color: #ffffff;
+  margin: -9px;
+}/*# sourceMappingURL=style.css.map */
