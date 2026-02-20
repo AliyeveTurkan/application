@@ -1,82 +1,57 @@
 #contact
-    .imgboxone
-        width: 300px
-        display: inline-block
-        padding: 0 60px 60px 30px
-       
-    .imgboxtwo
-        width: 245px
-        display: inline-block
-        padding: 0 60px 60px
-       
-    .imgboxthree
-        width: 280px
-        display: inline-block
-        padding: 0 60px 60px
-    .imgboxfour
-        width: 230px
-        display: inline-block
-        padding: 0 60px 60px
-        
-    .imgbox
-        background-color: #120f1d
-    .addone
-        position: absolute
-        top: 5750px
-        left: 160px
-        input
-            width: 500px
-            height: 60px
-            color: #d1d6dc
-    .addtwo 
-        position: absolute
-        top: 5830px
-        left: 160px
-        input
-            width: 500px
-            height: 60px
-            color: #d1d6dc
-    .addthree
-        position: absolute
-        top: 5910px
-        left: 160px
-        input
-            width: 500px
-            height: 60px
-            color: #d1d6dc
-    .addfour
-        position: absolute
-        top: 5750px
-        left: 700px
-        input
-            width: 500px
-            height: 220px
-            color: #d1d6dc
-    .textbox
+    background-image: url(Assets/map-image.png)
+    background-color: #212529
+    background-position: center center
+    .box
+        margin-top: 60px
         h1 
-            position: absolute
-            top: 5620px
-            left: 560px
-            color: #ffffff
+            color: #ffffff 
+            font-size: 50px
+            margin-bottom: 16px
             font-weight: 700
-            font-size: 45px
         h3 
-            position: absolute
-            top: 5690px
-            left: 535px
-            font-size: 18px
-            color: #7a7b7d
-    .box 
-        width: 220px
-        height: 70px
-        border: 3px solid #b28f0e
-        border-radius: 10px
-        background-color: #b28f0e
-        position: absolute
-        top: 6000px
-        left: 570px
-        h2 
-            font-weight: 700
             font-size: 20px
+            color: #6c757d
+    .place
+        display: flex
+        flex-direction: column
+        margin-top: 44px
+        input
+            margin: 14px 0
+            padding: 20px 20px 
+            font-size: 20px
+            font-weight: 700
+    .textbox
+        display: flex
+        margin-top: 55px
+        font-size: 20px
+        textarea
+            color: #cecacaef
+            border-radius: 5px
+            font-weight: 700
+            padding: 18px
+    .btn
+        padding: 15px 35px
+        margin: 40px 0
+        background-color: #ffc021
+        border-radius: 7px
+        opacity: 0.7
+        h2 
+            font-size: 25px
+            font-weight: 700
             color: #ffffff
-            padding: 23px 40px
+    @media screen and (max-width: 768px )
+        .textbox
+            margin-top: 15px
+
+    @media screen and ( max-width: 576px )
+        .box
+            h1
+                font-size: 45px
+            h3 
+                font-size: 18px
+       
+    
+    
+    
+    
